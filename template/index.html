@@ -1,0 +1,18 @@
+<!doctype html>
+<head>
+    <title>Fake telega</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8"/>
+</head>
+</html>
+<body>
+    <div class="message_block">
+        <img src="data:image/jpg;base64, {{avatar}}" alt="avatar" class="avatar">
+        <div class="triangle"></div><div class="message">
+            <div class="inner">
+                <span class="text">{{message|escape}}</span>
+                <span class="time">{{time|escape}}</span>
+            </div>
+        </div>
+    </div>
+</body>

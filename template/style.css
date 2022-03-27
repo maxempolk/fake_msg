@@ -1,0 +1,62 @@
+/* max-width: 430(-28 padding) 
+   
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body{
+    background-color: rgb(14,22,33);
+    font-family: 'Roboto' ;
+    font-size: 13px;
+
+    color: rgb(245, 245, 245);
+    /* letter-spacing: 0; */
+    /* line-height: 10px; */
+}
+.message_block{
+    width: fit-content;
+}
+.message_block .avatar{
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+.triangle{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 8px 6px;
+    border-color: transparent transparent rgb(24, 37, 51) transparent;
+}
+.message{
+    display: inline-block;
+    background-color: rgb(24, 37, 51);
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 9px;
+    padding-bottom: 0px;
+    border-radius: 6px 6px 6px 0px; 
+    max-width: 402px;
+    /* border-radius: 6px; to single message  */
+}
+
+.message .text{
+    margin-right: 11px;
+    float: left;
+}
+.message .time{
+    color: rgb(109, 127, 143);
+    font-size: 13px;
+    display: block;
+    float: left;
+    margin-top: 5px;
+    padding-bottom: 4px;
+    float:right;
+}
+.inner{
+    display: block;
+}
+.inner span{
+    max-width: 402px;
+    word-wrap: break-word;
+}
